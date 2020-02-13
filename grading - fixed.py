@@ -42,6 +42,8 @@ elif avg <= 69 and avg >= 65:
     letter_grade = "D"
 else:
     letter_grade = "F"
+# an alternative would be:  for grade in grades:
+#   print("Exam: " + str(grade))
 
 print("Exam: " + str(grades))
 print("Average: " + str(avg))
